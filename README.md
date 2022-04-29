@@ -113,11 +113,11 @@ For more details, check our [documentation](https://docs.restb.ai/property)
 
 #### 👩‍🍳 Property Condition
 
-Anyone who has worked in real estate understands there are massive price swings between similar houses of varying quality. Unfortunately, while most people know the difference when they see it, it is difficult to apply at scale. That’s why we built a model to detect the condition (Disrepair, poor, average, good, excellent or luxury) of various real estate photos. It’s perfect to enhance your AVM, to source ideal properties for renovation or to narrow down lists of comparables. Our current API analyze a property’s:
+Anyone who has worked in real estate understands there are massive price swings between similar houses of varying quality. Unfortunately, while most people know the difference when they see it, it is difficult to apply at scale. That’s why we built a model to detect the condition (Disrepair, poor, average, good, excellent or luxury) of various real estate photos. It’s perfect to enhance your *AVM*, to source ideal properties for renovation or to narrow down lists of comparables. Our current API analyze a property’s:
 
-- Bathroom and kitchen conditions
-- Interior and exterior conditions
-- Overall condition
+- **Bathroom** and **kitchen** conditions
+- **Interior** and **exterior** conditions
+- **Overall** condition
 
 ![Property Condition example](assets/property_condition__example.png)
 
@@ -127,4 +127,4 @@ The image above shows the images of a listing and their corresponding condition 
 
 This solution is being used for our clients in order to evaluate the improvements of a property, if a house has been renovated, or even it's also helpful for understanding how much the condition improves after a renovation of a house.
 
-You can find a practical example in the [torii portal](https://www.toriihomes.com/search?filters=%7B%22minDaysOnMarket%22%3A0%2C%22daysOnMarket%22%3A100000%2C%22hasGarageSpaces%22%3Afalse%2C%22maxAge%22%3A1800%2C%22maxHOA%22%3A0%2C%22minAge%22%3A2022%2C%22minBath%22%3A0%2C%22minBr%22%3A0%2C%22minParking%22%3A0%2C%22openHousesOnly%22%3Afalse%2C%22propType%22%3A%5B%5D%2C%22sqFeetRange%22%3A%5B500%2C600%2C700%2C800%2C900%2C1000%2C1250%2C1500%2C1750%2C2000%2C2250%2C2500%2C3000%2C3500%2C4000%2C4500%2C5000%5D%2C%22photosByRoom%22%3A%22%22%2C%22conditionsByRoomType%22%3A%22%5B%7B%5C%22rt%5C%22%3A%5C%22kitchen%5C%22%2C%5C%22rc%5C%22%3A%5B2%5D%7D%5D%22%2C%22location%22%3A%2242.360082500000004%2C-71.05888010000001%22%2C%22boundingBox%22%3A%2242.40731444918141%2C-70.96532464956054%2C42.31281502055425%2C-71.15243555043945%22%2C%22zoom%22%3A13%7D&location=42.360082500000004%2C-71.05888010000001&view=map) where they apply our Property Condition to search the property that suits better your budget and needs.
+You can find a practical example in the [Torii Homes portal](https://www.toriihomes.com/search?filters=%7B%22minDaysOnMarket%22%3A0%2C%22daysOnMarket%22%3A100000%2C%22hasGarageSpaces%22%3Afalse%2C%22maxAge%22%3A1800%2C%22maxHOA%22%3A0%2C%22minAge%22%3A2022%2C%22minBath%22%3A0%2C%22minBr%22%3A0%2C%22minParking%22%3A0%2C%22openHousesOnly%22%3Afalse%2C%22propType%22%3A%5B%5D%2C%22sqFeetRange%22%3A%5B500%2C600%2C700%2C800%2C900%2C1000%2C1250%2C1500%2C1750%2C2000%2C2250%2C2500%2C3000%2C3500%2C4000%2C4500%2C5000%5D%2C%22photosByRoom%22%3A%22%22%2C%22conditionsByRoomType%22%3A%22%5B%7B%5C%22rt%5C%22%3A%5C%22kitchen%5C%22%2C%5C%22rc%5C%22%3A%5B2%5D%7D%5D%22%2C%22location%22%3A%2242.360082500000004%2C-71.05888010000001%22%2C%22boundingBox%22%3A%2242.40731444918141%2C-70.96532464956054%2C42.31281502055425%2C-71.15243555043945%22%2C%22zoom%22%3A13%7D&location=42.360082500000004%2C-71.05888010000001&view=map) where they apply our Property Condition to search the property that suits better your budget and needs.
