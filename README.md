@@ -96,7 +96,7 @@ You want to search for a property with specific features? Like for example you w
 
 For this reason you wouldn't want to be notified with available properties that do not have those characteristics. The portal can use the feature extraction to match the aspects you are more interested in. 
 
-![Use case - Email personalization 2](assets/use_case__email_personalization__1.png)
+![Use case - Email personalization 2](assets/use_case__email_personalization__2.png)
 
 #### 4️⃣ Use case #4 - Compare specific Room Types
 
